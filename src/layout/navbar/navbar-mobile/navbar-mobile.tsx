@@ -22,7 +22,7 @@ const NavbarMobile = ({ className = "" }: Props) => {
           <SheetHeader>
             <div className="flex justify-start">
               <Link to="/" className="font-semibold">
-                Ai Adlibs
+                Career Quest
               </Link>
             </div>
           </SheetHeader>
@@ -31,21 +31,6 @@ const NavbarMobile = ({ className = "" }: Props) => {
               <li>
                 <Link to="/" className="py-2 pl-0 pr-2 block">
                   Home
-                </Link>
-              </li>
-              <li>
-                <Link to="/browse" className="py-2 pl-0 pr-2 block">
-                  Browse
-                </Link>
-              </li>
-              <li>
-                <Link to="/saves" className="py-2 pl-0 pr-2 block">
-                  Saves
-                </Link>
-              </li>
-              <li>
-                <Link to="/settings" className="py-2 pl-0 pr-2 block">
-                  Settings
                 </Link>
               </li>
             </ul>

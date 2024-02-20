@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
-import Container from "../container/Container";
-import ThemeToggle from "@/components/button/ThemeToggle";
-import NavbarMobile from "./navbar-mobile/NavbarMobile";
+import Container from "../container/container";
+import NavbarMobile from "./navbar-mobile/navbar-mobile";
 
 const Navbar = () => {
   return (
@@ -13,7 +12,7 @@ const Navbar = () => {
           </li>
           <li>
             <Link to="/">
-              <h1 className="text-lg font-semibold py-2">Ai Adlibs</h1>
+              <h1 className="text-lg font-semibold py-2">Career Quest</h1>
             </Link>
           </li>
         </ul>
@@ -22,24 +21,6 @@ const Navbar = () => {
             <Link to="/" className="py-2 px-2 block">
               Home
             </Link>
-          </li>
-          <li className="hidden md:block">
-            <Link to="/browse" className="py-2 px-2 block">
-              Browse
-            </Link>
-          </li>
-          <li className="hidden md:block">
-            <Link to="/saves" className="py-2 px-2 block">
-              Saves
-            </Link>
-          </li>
-          <li className="hidden md:block">
-            <Link to="/settings" className="py-2 px-2 block">
-              Settings
-            </Link>
-          </li>
-          <li>
-            <ThemeToggle />
           </li>
         </ul>
       </Container>
